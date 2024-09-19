@@ -41,10 +41,10 @@ console.log(sum);
 //meore varianti
 let array3= [1, 2, 3, 4, 5];
 let sum=0;
-for (let index in array3) {
-   sum += array3[index];
+for (let index of array3) {
+   sum += index;
 }
-console.log(sum);
+     console.log(sum)   
 
 
 // 4 მოცემულია მასივი:
